@@ -9,7 +9,7 @@ function App() {
   return (
     <>
       <div>
-      <h1>React test site</h1>
+      <h1 className='heading'>React test site</h1>
       <div className='intro'>
       <p>This site is hosted on <a href="https://pages.github.com/">Github pages</a> and was made using: </p>
         <ul className='intro-list'>

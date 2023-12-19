@@ -5,6 +5,10 @@
   text-align: center;
 }
 
+.heading {
+  filter: drop-shadow(4px 2px 1px rgba(25, 50, 100, 0.6 ));
+}
+
 .intro {
   border-color: rgba(50, 100, 200, 0.6);
   border-style: solid;
