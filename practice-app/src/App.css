@@ -5,6 +5,18 @@
   text-align: center;
 }
 
+.intro {
+  border-color: #61dafbaa;
+  border-style: solid;
+  border-radius: 1rem;
+  border-width: 3px;
+  padding: 1rem;
+}
+
+.intro-list {
+  text-align: left;
+}
+
 .logo {
   height: 6em;
   padding: 1.5em;
