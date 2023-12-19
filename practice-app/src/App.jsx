@@ -17,6 +17,7 @@ function App() {
           <li><a href="https://vitejs.dev/">Vite</a></li>
           <li><a href="https://bun.sh/">Bun</a></li>
         </ul>
+        <p>it was created by <a href= "https://github.com/May-Cook">May Cook</a></p>
         </div>
       </div>
     </>
