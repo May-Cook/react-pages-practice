@@ -17,8 +17,8 @@ export default function RandomNumberGenerator(){
                 <label for="min-num">Min Value: {minNum}</label>
             </div>
             </div>
-            <p>Your number is: {num}</p>
-            <div><button onClick={()=> SetNum(Math.floor((Math.random() * ((maxNum+1) - minNum)) + minNum))}>Generate</button></div> {/* Button sets num to a random integer from minNum to maxNum */}
+            <p>Your number is: <b>{num}</b></p>
+            <div><button onClick={()=> SetNum(Math.floor((Math.random() * ((maxNum+1) - minNum)) + minNum))}>Generate Number</button></div> {/* Button sets num to a random integer from minNum to maxNum */}
         </div>
     )
 }
