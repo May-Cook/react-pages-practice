@@ -47,7 +47,9 @@
 
 .slider:hover {
   opacity: 0.8;
+  cursor: ew-resize;
 }
+
 
 .slider-container {
   text-align: left;
