@@ -6,7 +6,7 @@
 }
 
 .heading {
-  filter: drop-shadow(4px 2px 1px rgba(25, 50, 100, 0.6 ));
+  filter: drop-shadow(4px 2px 1px rgba(25, 50, 100, 0.6));
 }
 
 .intro {
@@ -39,17 +39,16 @@
   border: 2px solid;
   border-radius: 1rem;
   border-color: rgb(110, 140, 200);
-  opacity: 0.6;;
+  opacity: 0.6;
   width: 60%;
   align-self: left;
-  margin: 0.2rem
+  margin: 0.2rem;
 }
 
 .slider:hover {
   opacity: 0.8;
   cursor: ew-resize;
 }
-
 
 .slider-container {
   text-align: left;
