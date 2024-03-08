@@ -1,4 +1,6 @@
-import { useState } from "react"
+import { useState } from "react";
+import RangeSlider from "react-range-slider-input";
+import "react-range-slider-input/dist/style.css";
 
 export default function RandomNumberGenerator(){
     const [num, SetNum] = useState("");
@@ -18,6 +20,7 @@ export default function RandomNumberGenerator(){
             </div>
             </div>
             <p>Your number is: <b>{num}</b></p>
+            <RangeSlider />
             <div><button onClick={()=> SetNum(Math.floor((Math.random() * ((maxNum+1) - minNum)) + minNum))}>Generate Number</button></div> {/* Button sets num to a random integer from minNum to maxNum */}
         </div>
     )
