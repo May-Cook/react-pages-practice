@@ -9,4 +9,6 @@ I followed <a href=https://github.com/gitname/react-gh-pages>this guide</a>, ada
 
 _Note: Make sure the `base:` attribute in vite config is set to `/practice-app/`_
 ### Deploying the website using bun
-from the `./practice-app` directory, I type `bun run predeploy` into the terminal followed by `bun run deploy`
+From the `./practice-app` directory, I type `bun run deploy`. 
+
+_This automatically runs `bun run predeploy` first_
