@@ -19,7 +19,7 @@ export default function Intro() {
           </li>
         </ul>
         <p>
-          it was created by <a href="https://github.com/May-Cook">May Cook</a>
+          It was created by <a href="https://github.com/May-Cook">May Cook</a>
         </p>
       </div>
     </>
