@@ -6,5 +6,7 @@ I followed <a href=https://github.com/gitname/react-gh-pages>this guide</a>, ada
 * Using `bun create vite practice-app` in place of `npx create-react-app practice-app` and following the instructions given in terminal to run `bun install` in `./practice-app`
 * Using `bun` in place of `npm` and `npx`
 * Changing the `"deploy"` script from`"gh-pages -d build"` to `"gh-pages -d dist"`, to reflect the differing directory used by Vite
+
+_Note: Make sure the `base:` attribute in vite config is set to `/practice-app/`_
 ### Deploying the website using bun
 from the `./practice-app` directory, I type `bun run predeploy` into the terminal followed by `bun run deploy`
